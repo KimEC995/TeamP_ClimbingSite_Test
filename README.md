@@ -25,3 +25,11 @@
         - 1.이름을 기준으로 다시 검색(별로인듯)
         - 2.이름을 가져오는 함수에서 관련 데이터(플레이스에 있는 그것) 을 가져오도록 -> 없다!
 - [PlaceURL](https://developers.kakao.com/docs/latest/ko/local/dev-guide#search-by-keyword) 방법을 이용 -> 여기서 데이터 크롤링 혹은 이 데이터 그대로 띄우던가.. 좋은 방법인가?
+
+---
+#### 오후
+- 이런! 쿼리스트링 그 자체로 날리면 된다..! [링크](https://developers.kakao.com/tool/rest-api/open/get/v2-local-search-keyword.%7Bformat%7D)
+- 왜 스프링에서 날리면 인식을 못할까?
+	- 키 인증이 이상해서?
+	- (매우 높은 확률) 코드를 짤못짜서
+		- 근데 그렇다기엔 키워드 말고 카테고리는 잘 나오는데?
