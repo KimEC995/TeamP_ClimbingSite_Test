@@ -21,7 +21,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class PharmacyController {
 	String KAKAO_API_URL = "https://dapi.kakao.com/v2/local/search/keyword.json";
-    private static final String KAKAO_API_KEY = "bba502ffca79940b6b67288936813ffd";
+    private static final String KAKAO_API_KEY = "21f97888347ec234c361174396612f61";
 
     @GetMapping("/pharmacies")
     public String getPharmacies(Model model) {
